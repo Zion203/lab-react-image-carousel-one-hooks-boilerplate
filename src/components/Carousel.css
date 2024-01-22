@@ -1,1 +1,29 @@
-/* write down the css for Carousel in this file */
+#main{
+    display: flex;
+    align-items: center;
+}
+
+.texts{
+    padding: 10px;
+    background-color:white;
+    border-radius: 10px;
+    opacity: 0.5;
+    text-align: center;
+    margin-left: 10px;
+}
+#subtitle{
+    font-weight: bold;
+    font-size: larger;
+}
+
+#text-img{
+    position: absolute;
+    height: 100vh;
+    top : 0;
+    width:490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
